@@ -22,7 +22,7 @@ export async function syncFeeds() {
     .eq("user_id", user.id);
 
   if (sourcesError) throw sourcesError;
-  if (!sources || sources.length === 0) return { count: 0 };
+  if (!sources || sources.length === 0) return;
 
   let totalNewItems = 0;
 
