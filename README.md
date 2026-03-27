@@ -1,30 +1,36 @@
-# input_curator
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-インプットPWA（MVP）の開発リポジトリ。
+## Getting Started
 
-## 命名の理由
+First, run the development server:
 
-**input_curator** = 複数ソースから流れ込む **input**（記事・フィード）を、ユーザーがスワイプ等で **curate**（選定・ラベル付け）し、Markdown で vault Inbox に渡す用途を表す。`vibe_fullstack_mvp` よりプロダクトの振る舞いが名前から伝わるようにした。
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-## 親ドキュメント
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-vault の `02_PJ/VibeFullstackBoot/0_PJ-VibeFullstackBoot.md`（このリポからの相対: `../../vault`）。
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-## 方針（リポジトリ構成）
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-- **単一リポジトリ**: MVP はこのリポ内の Next.js アプリ 1 本で進める（モノレポのサブパッケージ分割はしない）。
-- **Track B**（`claude agent teams`）: 同一リポに `agents/` 等を置くか別リポかは vault の ISS-07 で決定。未決定までは本リポをアプリ本体の正とする。
+## Learn More
 
-## スタック（予定）
+To learn more about Next.js, take a look at the following resources:
 
-- Next.js（App Router）, TypeScript, Tailwind CSS, shadcn/ui
-- Supabase（Auth + DB）— 要件・引き継ぎは vault の `1_REQ-VibeFullstackBoot-要件定義.md` / `3_ISS-VibeFullstackBoot-03-認証DBコアAPI.md`
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-## ローカルパス
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-- 絶対: `C:\Users\kurak\Documents\repos\input_curator`
-- vault からの相対: `../repos/input_curator`
+## Deploy on Vercel
 
-## リモート
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-- **GitHub**: https://github.com/k-kura84/input_curator（`origin`、既定ブランチ **`main`**）
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
