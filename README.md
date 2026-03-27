@@ -1,6 +1,14 @@
-# vibe_fullstack_mvp
+# input_curator
 
-インプットPWA（MVP）の開発リポジトリ。親ドキュメントは vault の `02_PJ/VibeFullstackBoot/0_PJ-VibeFullstackBoot.md`（相対: `../../vault`）。
+インプットPWA（MVP）の開発リポジトリ。
+
+## 命名の理由
+
+**input_curator** = 複数ソースから流れ込む **input**（記事・フィード）を、ユーザーがスワイプ等で **curate**（選定・ラベル付け）し、Markdown で vault Inbox に渡す用途を表す。`vibe_fullstack_mvp` よりプロダクトの振る舞いが名前から伝わるようにした。
+
+## 親ドキュメント
+
+vault の `02_PJ/VibeFullstackBoot/0_PJ-VibeFullstackBoot.md`（このリポからの相対: `../../vault`）。
 
 ## 方針（リポジトリ構成）
 
@@ -14,9 +22,9 @@
 
 ## ローカルパス
 
-- 絶対: `C:\Users\kurak\Documents\repos\vibe_fullstack_mvp`
-- vault からの相対: `../repos/vibe_fullstack_mvp`
+- 絶対: `C:\Users\kurak\Documents\repos\input_curator`
+- vault からの相対: `../repos/input_curator`
 
 ## リモート
 
-- GitHub 等のリモートは未設定の場合あり。追加後、この README の上に URL を追記する。
+- GitHub 等のリモートは未設定の場合あり。追加後、この節に URL を追記する。
